@@ -7,12 +7,19 @@ Prerequisites
 Before running this chatbot, make sure that you have a Google account to access Google Colab. Also, ensure that you have the following Python libraries installed:
 
 io (For working with I/O streams)
+
 random (For generating random numbers)
+
 string (For working with strings)
+
 numpy (For numerical computing)
+
 sklearn (For machine learning algorithms)
+
 nltk (Natural Language Toolkit for NLP tasks)
+
 Usage
+
 Open Google Colab and create a new notebook.
 
 Mount your Google Drive in the notebook.
