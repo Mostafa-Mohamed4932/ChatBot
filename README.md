@@ -2,6 +2,7 @@ Chat Bot
 
 This is a Python project that implements a chatbot that reacts to the information provided by the user. Once the user sends a message to the bot, it cleans the message and compares it with the data available in a file named Chatbot (1).txt that is uploaded to Google Drive. If it finds a match, the bot responds with the corresponding message from the file. If it cannot find a match, the bot informs the user that it cannot understand the message.
 
+
 Prerequisites
 
 Before running this chatbot, make sure that you have a Google account to access Google Colab. Also, ensure that you have the following Python libraries installed:
@@ -17,6 +18,7 @@ numpy (For numerical computing)
 sklearn (For machine learning algorithms)
 
 nltk (Natural Language Toolkit for NLP tasks)
+
 
 Usage
 
@@ -37,6 +39,7 @@ The chatbot will prompt you to enter your message. Type your message and press e
 The bot will clean the message and compare it with the data available in Chatbot (1).txt on your Google Drive. If it finds a match, it will respond with the corresponding message from the file. If it cannot find a match, the bot will inform you that it cannot understand the message.
 
 If the bot finds multiple lines that match the user's prompt, it will grade them according to how close they are to the sentence, and then use the one with the highest score.
+
 
 Conclusion
 
